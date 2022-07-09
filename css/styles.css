@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --color-red: #f03c42;
+  --color-white: #ffffff;
+  --color-blue: #222374;
+  --color-black: #000000;
+  --color-gray: #cccccc;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+header {
+  height: 100px;
+  background-color: var(--color-red);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-white);
+}
+.header-content h4 {
+  font-size: 18px;
+}
+
+.header-content a {
+  margin: 5px;
+  font-size: 14px;
+}
+.div-content {
+  display: flex;
+  align-items: center;
+}
+
+#we-spaces {
+  padding: 40px 15px;
+  height: 418px;
+  background-color: var(--color-blue);
+  display: flex;
+  align-items: center;
+}
+#we-spaces h1 {
+  color: var(--color-white);
+  font-size: 32px;
+  padding: 20px 0px;
+}
+
+.space-fitness {
+  background-color: var(--color-gray);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.space-fitness h1 {
+  color: var(--color-black);
+  font-size: 20px;
+  width: 127px;
+}
+
+.space-fitness p {
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 400px;
+}
+#modalities {
+  height: 880px;
+  padding: 20 px;
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+
+.modalities-content {
+    background-color: var(--color-blue);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0px;
+  
+  height: 106px;
+}
+
+#modalities h1 {
+  font-size: 32px;
+  color: var(--color-red);
+}
+
+.modalities-content h3 {
+  color: var(--color-white);
+  font-size: 20px;
+}
+
+.modalities-content p {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+footer {
+    padding: 20px 15px;
+    height: 262px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    margin: 20px 0;
+    
+    
+}
+
+footer a {
+    font-size: 14px;
+    margin: 5px;
+}
+footer h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+footer p {
+    font-style: italic;
+font-weight: 400;
+font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+    
+
+
+
